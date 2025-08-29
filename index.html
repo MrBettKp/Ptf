@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Li Chen - HTML5/JS Game Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="assets/logo.png" alt="Li Chen Game Dev Logo">
+                <span>Li Chen</span>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>HTML5/JS Game Developer</h1>
+                <p>Creating immersive browser-based gaming experiences</p>
+                <div class="cta-buttons">
+                    <a href="#portfolio" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-demo">
+                <div class="game-window">
+                    <div class="game-window-header">
+                        <div class="window-controls">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                    <canvas id="hero-canvas" width="480" height="320"></canvas>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2>Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Core Technologies</h3>
+                    <ul>
+                        <li>HTML5 & CSS3</li>
+                        <li>Vanilla JavaScript (ES6+)</li>
+                        <li>Canvas API</li>
+                        <li>WebGL (Basics)</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Game Development</h3>
+                    <ul>
+                        <li>Game Physics & Animation</li>
+                        <li>Collision Detection</li>
+                        <li>Particle Systems</li>
+                        <li>State Management</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Tools & Libraries</h3>
+                    <ul>
+                        <li>Phaser.js</li>
+                        <li>Howler.js (Audio)</li>
+                        <li>Webpack & Babel</li>
+                        <li>Git & GitHub</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2>Game Portfolio</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/game-screenshot-1.png" alt="Space Invaders Game">
+                    </div>
+                    <div class="project-info">
+                        <h3>Space Invaders</h3>
+                        <p>Classic arcade game rebuilt with HTML5 Canvas and vanilla JavaScript</p>
+                        <div class="project-tech">HTML5 | Canvas | JavaScript</div>
+                        <div class="project-links">
+                            <a href="games/space-invaders/" class="btn btn-small">Play Game</a>
+                            <a href="#" class="btn btn-small btn-outline">View Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/game-screenshot-2.png" alt="Platformer Game">
+                    </div>
+                    <div class="project-info">
+                        <h3>Javascript Platformer</h3>
+                        <p>Side-scrolling platform game with parallax backgrounds and smooth controls</p>
+                        <div class="project-tech">HTML5 | JavaScript | Canvas</div>
+                        <div class="project-links">
+                            <a href="games/platformer/" class="btn btn-small">Play Game</a>
+                            <a href="#" class="btn btn-small btn-outline">View Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="coming-soon">Coming Soon</div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Puzzle Adventure</h3>
+                        <p>HTML5 puzzle game with immersive storyline and challenging mechanics</p>
+                        <div class="project-tech">Phaser.js | Tiled | Howler.js</div>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-small disabled">In Development</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>About Me</h2>
+                    <p>Hello! I'm Li Chen, a passionate HTML5 and JavaScript game developer with expertise in creating engaging browser-based games.</p>
+                    <p>I specialize in vanilla JavaScript game development, leveraging the power of Canvas API to create performant and enjoyable gaming experiences that work across all modern browsers.</p>
+                    <p>When I'm not coding, I'm studying game design patterns, exploring new web technologies, or playing indie games for inspiration.</p>
+                </div>
+                <div class="about-image">
+                    <div class="placeholder-image"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <p>Interested in working together? Reach out via Discord or email.</p>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <h3>Discord</h3>
+                    <p>bta_5kp</p>
+                </div>
+                <div class="contact-item">
+                    <h3>Email</h3>
+                    <p>lichen.gamedev@example.com</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="assets/logo.png" alt="Li Chen Game Dev Logo">
+                    <span>Li Chen</span>
+                </div>
+                <div class="footer-info">
+                    <p>HTML5/JS Game Developer</p>
+                    <p>Discord: bta_5kp</p>
+                </div>
+                <div class="footer-nav">
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Li Chen. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+  </html>
